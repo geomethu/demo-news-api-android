@@ -60,6 +60,7 @@ public class Fragment_register extends Fragment implements View.OnClickListener 
         btn_regiser.setOnClickListener(this);
         edtEmail = (EditText) rootView.findViewById(R.id.et_register_email);
         edtPassword = (EditText) rootView.findViewById(R.id.et_register_password);
+        edtConfirmPassword = (EditText) rootView.findViewById(R.id.et_login_password_confirm);
         firebaseAuth = FirebaseAuth.getInstance();
         return rootView;
     }
@@ -111,6 +112,12 @@ public class Fragment_register extends Fragment implements View.OnClickListener 
             edtPassword.setError("Length (6-8)");
             return false;
         }
+
+        if (!edtConfirmPassword.getText().toString().equalsIgnoreCase(edtPassword.getText().toString().trim())) {
+            edtPassword.setError("Password does not match");
+            return false;
+        }
+
 
         return res;
     }
