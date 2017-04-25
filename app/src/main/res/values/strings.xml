@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demo-news-app</string>
+    <string name="btnSignup">Sign In</string>
+    <string name="Enterpassword">Password</string>
+    <string name="Enteruseremail">Email</string>
+    <string name="Enterpasswordconfirm">Confirm Password</string>
+    <string name="title_activity_dashboard">NEWS APP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "605618015551",
+    "firebase_url": "https://fir-authauth.firebaseio.com",
+    "project_id": "fir-authauth",
+    "storage_bucket": "fir-authauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605618015551:android:eec32710ec8786bf",
+        "android_client_info": {
+          "package_name": "com.newsapp.base.methu.demo_news_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605618015551-hsjna6l0l0m0j1voe2d4mni0li5tt0f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGBVKLAG2jI1ZDyfaGZ3hQ5zHliQWYgu4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
